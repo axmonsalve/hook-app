@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import { CallbackHook } from './components/06-memos/CallbackHook';
 // import { Padre } from './components/07-tarea-memo/Padre';
-import { TodoApp } from './components/08-useReducer/TodoApp';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { CounterApp } from './components/01-useState/CounterApp';
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
@@ -18,7 +19,7 @@ import { TodoApp } from './components/08-useReducer/TodoApp';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(<TodoApp />, document.getElementById('root'));
+ReactDOM.render(<MainApp />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
