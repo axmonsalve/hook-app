@@ -19,11 +19,11 @@ export const MultipleCustomHooks = () => {
       {loading ? (
         <div className="aler alert-info text-center">loading...</div>
       ) : (
-        <figure class="text-end">
+        <figure className="text-end">
           <blockquote className="blockquote">
             <p className="mb-2">{quote}</p>
           </blockquote>
-          <figcaption class="blockquote-footer">
+          <figcaption className="blockquote-footer">
             <cite title="Source Title">{author}</cite>
           </figcaption>
         </figure>
